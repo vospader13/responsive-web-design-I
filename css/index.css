@@ -190,10 +190,143 @@ footer {
   font-size: 14px;
 }
 
-@media (max-width 800px) {
+@media (max-width: 800px) {
+	.container{
+		max-width: 95%;
+		margin: 1% 4%;
+	}
+	header {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 5%;
+		flex-wrap: nowrap;
+		
+	}
+
+	header nav {
+		/* background-color: aqua; */
+		/* display: flex;
+		justify-content: space-between; */
+		max-width: 95%;
+		top: 15%;
+		position: absolute;
+		margin: 0%;
+		
+		
+	}
+
+	header img {
+		position: absolute;
+		top: 0%;
+	}
+
+	.cta img {
+		display: none;
+	}
+	.cta {
+		
+		display: flex;
+		justify-content: center;
+		max-width: 95%;
+	}
+	.top-content {
+		display: flex;
+		max-width: 95%;
+		justify-content: space-evenly;
+
+	}
+	.main-content img {
+
+		max-width: 95%;
+		margin: 0%;
+	}
+	.bottom-content {
+		display: flex;
+		max-width: 95%;
+	}
+	.main-content {
+		border-top: 3px solid black;
+		margin: 0% 2%;
+		padding-top: 39px;
+		
+	}
+	.contact {
+		border-top: 3px solid black;
+		margin: 4% 2%;
+		padding: 39px 10px 0;
+	}  
+
 
 }
 
-@media (max-width 500px) {
-	
+@media (max-width: 500px) {
+	.container{
+		max-width: 95%;
+		margin: 1% 4%;
+	}
+	header {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 5%;
+		flex-wrap: nowrap;
+		align-content: column;
+		
+	}
+
+	header nav {
+		/* background-color: aqua; */
+		/* display: flex;
+		justify-content: space-between; */
+		max-width: 95%;
+		top: 15%;
+		position: absolute;
+		margin: 0%;
+		
+		
+	}
+
+	header img {
+		position: absolute;
+		top: 0%;
+	}
+
+	.cta img {
+		display: none;
+	}
+	.cta {
+		
+		display: flex;
+		justify-content: center;
+		max-width: 95%;
+	}
+	.top-content {
+		display: flex;
+		max-width: 95%;
+		justify-content: space-evenly;
+
+	}
+	.main-content img {
+
+		max-width: 95%;
+		margin: 0%;
+	}
+	.bottom-content {
+		display: flex;
+		max-width: 95%;
+	}
+	.main-content {
+		border-top: 3px solid black;
+		margin: 0% 2%;
+		padding-top: 39px;
+		
+	}
+	.contact {
+		border-top: 3px solid black;
+		margin: 4% 2%;
+		padding: 39px 10px 0;
+	} 
+
+
+
+
 }
