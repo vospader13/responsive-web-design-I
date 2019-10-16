@@ -189,3 +189,11 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+@media (max-width 800px) {
+
+}
+
+@media (max-width 500px) {
+	
+}
