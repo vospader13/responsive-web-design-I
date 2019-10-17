@@ -267,22 +267,31 @@ footer {
 	header {
 		display: flex;
 		justify-content: center;
-		padding-bottom: 5%;
+		padding-bottom: 50%;
 		flex-wrap: nowrap;
-		align-content: column;
+		
 		
 	}
 
 	header nav {
 		/* background-color: aqua; */
-		/* display: flex;
-		justify-content: space-between; */
+		display: flex;
 		max-width: 95%;
-		top: 15%;
 		position: absolute;
-		margin: 0%;
+		flex-direction: column;
+		height: 50%;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
 		
 		
+		
+	}
+	header nav a {
+		height: 800%;
+		border-bottom: 1px solid gray;
+		max-width: 100%;
+
 	}
 
 	header img {
