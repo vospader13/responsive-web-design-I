@@ -262,7 +262,7 @@ footer {
 @media (max-width: 500px) {
 	.container{
 		max-width: 95%;
-		margin: 1% 4%;
+		/* margin: 1% 4%; */
 	}
 	header {
 		display: flex;
@@ -318,21 +318,33 @@ footer {
 		/* border: 1px solid black; */
 
 	}
-	.text-content{
+	/* .top-content div{
 		margin: 4% 0%;
 		max-width: 100%;
+		border: 2px solid blue;
 		
-	}
+	} */
 	.main-content img {
-
 		max-width: 95%;
 		margin: 0%;
 	}
+	.bottom-content {
+		display: flex;
+		flex-direction: column;
+				
+	}
+	/* .bottom-content div {
+		margin: 4% 0%;
+		max-width: 100%;
+		border: 2px solid blue;
+		
+	} */
 	.main-content {
 		border-top: 3px solid black;
 		margin: 0% 2%;
 		padding-top: 39px;
 		max-width: 100%;
+		
 		
 	}
 	.contact {
@@ -341,7 +353,11 @@ footer {
 		padding: 39px 10px 0;
 	} 
 
-
+	.text-content {
+		margin: 4% 0%;
+		max-width: 100%;
+		border: 2px solid blue;
+	}
 
 
 }
